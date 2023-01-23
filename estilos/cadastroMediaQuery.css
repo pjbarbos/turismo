@@ -1,15 +1,17 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 992px) and (max-width: 1200px){
+@media screen and (min-width: 768px) and (max-width: 992px){
     #salvar{
         width: 200px;
     }
     nav > menu> h1{
-        margin-left: 60px;
-        font-size: 1.8em;
+        margin-left: 250px;
+        font-size: 1.3em;
         margin-top: -60px;
+        color: white;
     }
     #botao{
+        width: 100px;
         margin-left: 210px;
         margin-top: -40px;
     }
@@ -21,11 +23,33 @@
     
 }
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 992px) and (max-width: 1200px){
     nav > menu> h1{
         margin-left: 530px;
-        font-size: 2.5em;
-        margin-top: -60px;
+        font-size: 2.2em;
+        margin-top: -70px;
+        color: white;
+    }
+    #salvar{
+        width: 200px;
+    }
+    #botao{
+        margin-left: 210px;
+        margin-top: -40px;
+        width: 200px;
+    }
+    main > section form{
+        width: 90%;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 1200px){
+    nav > menu> h1{
+        margin-left: 530px;
+        font-size: 3em;
+        margin-top: -70px;
+        color: white;
     }
     #salvar{
         width: 200px;

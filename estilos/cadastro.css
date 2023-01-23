@@ -19,6 +19,7 @@ nav > img{
 nav > menu{
     display: inline;
     background-color: rgba(107, 37, 48, 0.63);
+    color: white;
 }
 
 nav > menu >h1{
