@@ -6,15 +6,15 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 nav{
-    height: 90px;
+    height: 100vh;
     width: 100vw;
     background-color:  rgba(248, 248, 248, 0.541)
 }
 nav > img{
-    height: 80px;
+    height: 20%;
     display: inline;
     margin-left: 10px;
-    margin-top: 5px;
+
 }
 nav > menu{
     display: inline;
@@ -22,14 +22,14 @@ nav > menu{
 }
 
 nav > menu >h1{
-    margin-left: 210px;
+    margin-left: 280px;
     margin-top: -60px;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 main > section form{
     width: 90%;
     margin-left: 20px;
-    margin-top: 20px;
+    margin-top: -450px;
 }
 #salvar{
     display: block;
