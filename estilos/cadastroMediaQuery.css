@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) and (max-width: 992px){
+@media screen and (min-width: 992px) and (max-width: 1200px){
     #salvar{
         width: 200px;
     }
@@ -21,7 +21,7 @@
     
 }
 
-@media screen and (min-width: 992px){
+@media screen and (min-width: 1200px){
     nav > menu> h1{
         margin-left: 530px;
         font-size: 2.5em;
