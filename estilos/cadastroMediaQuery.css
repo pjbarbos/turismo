@@ -5,8 +5,9 @@
         width: 200px;
     }
     nav > menu> h1{
-        margin-left: 300px;
+        margin-left: 400px;
         font-size: 1.5em;
+        margin-top: -100px;
     }
     #botao{
         margin-left: 210px;
@@ -16,7 +17,7 @@
     main > section form{
         width: 90%;
         margin-left: 20px;
-        margin-top: 20px;
+        margin-top: -450px;
     }
     
 }
@@ -25,6 +26,7 @@
     nav > menu> h1{
         margin-left: 530px;
         font-size: 2.5em;
+        margin-top: -100px;
     }
     #salvar{
         width: 200px;
@@ -37,6 +39,6 @@
     main > section form{
         width: 90%;
         margin-left: 20px;
-        margin-top: 20px;
+        margin-top: -450px;
     }
 }
