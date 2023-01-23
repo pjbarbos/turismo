@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Censo</title>
+    <link  rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"  integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"  crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos/cadastro.css">
+    <link rel="stylesheet" href="estilos/cadastroMediaQuery.css">
+</head>
+<body>
+    <nav>
+        <img src="../img/logoTurismo.png" alt="" sizes="" srcset="">
+        <menu>
+            <h1>Cadastro Empresa</h1>
+        </menu>
+    </nav>
+    <main>
+        <section>
+            <form action="" method="post" autocomplete="on">
+                <div class="form-group row">
+                    <div class="col-md-6 col-xl-4">
+                        <label for="nmEmpresa">Nome da empresa:</label>
+                        <input type="text" class="form-control" name="nmEmpresa" id="nmEmpresa">
+                    </div>
+                    <div class="col-md-6 col-xl-4">
+                        <label for="cnpjEmpresa">CNPJ da empresa:</label>
+                        <input type="text" class="form-control" name="cnpjEmpresa" id="cnpjEmpresa">
+                    </div>
+                    <div class="col-md-6 col-xl-4">
+                        <label for="nmPessoaResponsavel">Nome da Pessoa de Contato da Empresa</label>
+                        <input type="text" class="form-control" placeholder="" name="nmPessoaResponsavel" id="nmPessoaResponsavel">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-12 col-md-6 col-xl-4">
+                        <label for="nmTelResponsavel">Telefone da Pessoa de Contato da Empresa</label>
+                        <input type="tel" class="form-control" name="nmTelResponsavel" id="nmTelResponsavel">
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-xl-4">
+                        <label for="emailResponsavel">E-mail da Pessoa de Contato da Empresa</label>
+                        <input type="email" class="form-control" placeholder="" name="emailResponsavel" id="emailResponsavel">
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-xl-4">
+                        <label for="endereco">Endereço da Empresa</label>
+                        <input type="text" class="form-control" placeholder="" name="endereco" id="endereco">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-12 col-md-6 col-xl-4">
+                        <label for="numTelComercial">Telefone Comercial</label>
+                        <input type="tel" class="form-control" placeholder="" name="numTelComercial" id="numTelComercial">
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-xl-4">
+                        <label for="dtAberturaEmpresa">Data de Abertura da Empresa ao Púbico</label>
+                        <input type="date" class="form-control" placeholder=" " name="dtAberturaEmpresa" id="dtAberturaEmpresa">
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-xl-4">
+                        <label for="numQuantFuncionario">Quantidade de Funcionários da Empresa</label>
+                        <input type="number" class="form-control" placeholder="" name="numQuantFuncionario" id="numQuantFuncionario">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-12 col-md-6 col-xl-4">
+                        <label for="nmUsuario">Informe um usuário:</label>
+                        <input type="text" class="form-control" name="nmUsuario" id="nmUsuario">
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-xl-4">
+                        <label for="pswd">Informe uma senha:</label>
+                        <input type="password" class="form-control" name="pswd" id="pswd">
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-xl-4">
+                        <label for="confpswd">confirme a senha:</label>
+                        <input type="password" class="form-control" name="confpswd" id="confpswd">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-md-12">
+                        <input type="submit" value="Salvar" id="salvar">
+                    </div>
+                    <div class="col-md-12">
+                        <a href="index.html" id="botao">Home</a>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

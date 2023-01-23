@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    #salvar{
+        width: 200px;
+    }
+    nav > menu> h1{
+        margin-left: 300px;
+        font-size: 2em;
+    }
+    #botao{
+        margin-left: 210px;
+        margin-top: -40px;
+        width: 200px;
+    }
+    main > section form{
+        width: 90%;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    
+}
+
+@media screen and (min-width: 992px){
+    nav > menu> h1{
+        margin-left: 530px;
+        font-size: 2.5em;
+    }
+    #salvar{
+        width: 200px;
+    }
+    #botao{
+        margin-left: 210px;
+        margin-top: -40px;
+        width: 200px;
+    }
+    main > section form{
+        width: 90%;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+}
