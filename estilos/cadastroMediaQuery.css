@@ -15,6 +15,7 @@
         font-size: 2em;
         text-align: center;
         margin-top: -60px;
+        color: black;
     }
     main{
         width: 750px;
@@ -32,12 +33,34 @@
     }
 }
 
-@media screen and (min-width: 992px){
+@media screen and (min-width: 992px) and (max-width: 1200px){
     nav > menu >h1{
         font-size: 2em;
         text-align: center;
         margin-top: 10px;
         margin-top: -60px;
+        color: black;
+    }
+    main{
+        width: 992px;
+    }
+    #salvar{
+        display: inline;
+        width: 200px;
+    }
+    #botao{
+        margin-left: 210px;
+        margin-top: -40px;
+        width: 200px;
+    }
+}
+@media screen and (min-width: 1200px){
+    nav > menu >h1{
+        font-size: 2em;
+        text-align: center;
+        margin-top: 10px;
+        margin-top: -60px;
+        color: black;
     }
     main{
         width: 992px;
